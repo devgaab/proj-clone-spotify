@@ -1,0 +1,10 @@
+:root {
+    --txt-color-primary: #b3b3b3;
+    --txt-color-secondary: #fff;
+    --txt-color-tertiary: #000;
+    --bg-color-primary: #121212;
+    --bg-color-secondary: #242424;
+    --bg-color-tertiary: #fff;
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+}
