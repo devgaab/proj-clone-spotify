@@ -11,7 +11,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    padding: 12px;
+    padding: 8px;
     width: 300px;
 }
 
@@ -25,7 +25,7 @@ body {
     background: var(--bg-color-primary);
     display: flex;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding-left: 16px;
 }
 
 .sidebar_navigation .logo img {
@@ -52,6 +52,10 @@ body {
     margin-right: 10px;
 }
 
+.sidebar nav ul li a:hover {
+    color: var(--txt-color-secondary);
+}
+
 .library {
     background-color: var(--bg-color-primary);
     border-radius: 8px;
@@ -68,6 +72,9 @@ body {
 .library .library_content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
 }
 
 .library .library_button {
@@ -80,7 +87,11 @@ body {
     font-weight: 700;
     text-align: center;
     text-transform: none;
-    padding: 20px 10px;
+    padding: 4px 8px;
+}
+
+.library .library_button:hover {
+    color: var(--txt-color-secondary);
 }
 
 .library .library_button .bi {
@@ -91,7 +102,15 @@ body {
 }
 
 .library .library_content .plus {
-    margin: 20px 10px;
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.library .library_content .plus:hover {
+    background-color: rgba(255, 255, 255, 0.030);
+    border-radius: 100%;
+    color: var(--txt-color-secondary);
 }
 
 .section-playlist {
@@ -173,6 +192,11 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.languages .languages_button:hover {
+    border: 1px solid #fff;
+    transform: scale(1.04);
 }
 
 /* FOOTER */
