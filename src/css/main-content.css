@@ -1,7 +1,8 @@
 .main-container {
-    max-width: 80vw;
+    max-width: 90vw;
     height: 100vh;
-    margin-left: 320px;
+    margin-left: 295px;
+    /* 320px */
     overflow-y: hidden;
 }
 
@@ -10,7 +11,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    margin: 10px 12px 10px 10px;
+    margin: 8px;
+    /* 10px 12px 10px 10px */
     border-radius: 8px;
     background-color: var(--bg-color-primary);
 }
@@ -95,9 +97,10 @@
 
 /* PLAYLIST */
 .playlist-container {
-    height: 75vh;
+    height: 77vh;
     padding-top: 16px;
-    margin: 10px 12px 10px 10px;
+    margin: 8px;
+    /* 10px 12px 10px 10px */
     border-radius: 10px;
     background-color: var(--bg-color-primary);
     overflow-y: scroll;
@@ -179,7 +182,7 @@
 
 /* SCROLL */
 .offer_scroll-container {
-    max-height: 38vh;
+    max-height: 36vh;
     margin: 24px 60px 24px 24px;
     overflow-y: auto;
 }
