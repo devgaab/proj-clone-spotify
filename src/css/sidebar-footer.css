@@ -142,7 +142,8 @@ body {
 }
 
 .section-playlist_button:hover,
-.login:hover {
+.login:hover,
+.disclaimer-premium button:hover {
     transform: scale(1.04);
 }
 
@@ -176,14 +177,17 @@ body {
 
 /* FOOTER */
 .disclaimer-premium {
+    height: 4rem;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     background: linear-gradient(to right, #ae2896, #509bf5);
-    padding: 15px 40px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 8px;
 }
 
 .disclaimer-premium .text {
@@ -192,15 +196,14 @@ body {
 
 .disclaimer-premium .disclaimer-premium_title {
     color: var(--txt-color-secondary);
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
 .disclaimer-premium .disclaimer-premium_subtitle {
     color: var(--txt-color-secondary);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -213,4 +216,5 @@ body {
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
+    margin-right: 10px;
 }
